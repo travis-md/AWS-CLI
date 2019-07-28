@@ -1,0 +1,9 @@
+aws configure --profile # Configure profile for AWS
+aws <command> <subcommand> --profile <name> # Use profile
+~/.aws/config # File containing profile configuration
+~/.aws/credentials # File containing profile credentials
+export AWS_PROFILE=<name> # Set default profile (Mac)
+set AWS_PROFILE=<name> # Set default profile (Windows)
+aws sts get-caller-identity # Print out account and user info
+
+
